@@ -13,10 +13,10 @@ html, body {
     max-width: 90%;
     margin: auto;
     margin-top: 20px;
+    padding: 10px 20px;
     text-align: center;
     background-color: #fff;
     border-radius: 5px;
-    padding: 20px 0;
 }
 
 .main-header {
@@ -29,7 +29,7 @@ html, body {
 }
 
 .img-section {
-    
+    padding: 10px;
 }
 
 .img-section img {
@@ -83,15 +83,10 @@ html, body {
 }
 
 .popup > .container {
-    position: fixed;
-    top: 50%;
-    left: 0;
-    right: 0;
     transform: scale(1);
     border: 1px solid #000;
-    margin-top: -65px;
-    /* transform: scale(1); */
     transition: all .3s;
+    padding: 10px 0;
 }
 
 .popup.hidden > .container {
