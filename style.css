@@ -10,7 +10,7 @@ html, body {
 }
 .container {
     width: 600px;
-    max-width: 100%;
+    max-width: 90%;
     margin: auto;
     margin-top: 20px;
     text-align: center;
